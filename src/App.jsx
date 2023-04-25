@@ -11,9 +11,9 @@ const App = () => {
 
     <BrowserRouter>
       <Routes>
-        <Route path="http://dashboard-five-rouge.vercel.app/" element={<Layout/>}>
+        <Route path="/" element={<Layout/>}>
 
-          <Route path="http://dashboard-five-rouge.vercel.app/dashboard" element={<Dashboard/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
           
         </Route>
 
