@@ -1,0 +1,99 @@
+.dasboard-container {
+  width: 100%;
+  max-width: 128rem;
+  padding: 0rem 3rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.dashboard {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dashboardHead {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dashboardHead > .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head > :nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* button change */
+.Button {
+  border: none;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  max-width: 300px;
+  padding: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  background: rgb(192, 115, 79);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+}
+
+.cardHead{
+  font-size: 1rem;
+}
+
+.cardHead>:nth-child(1)
+{
+  color: rgba(115, 114, 114, 0.835);
+}
+
+.cardHead>:nth-child(2){
+  margin-left: 1.5rem;
+  font-size: 0.8rem;
+  color: var(--green);
+}
+.cardHead>:nth-child(3){
+  color: rgba(115, 114, 114, 0.835);
+
+}
+
+
+.cardAmount>:nth-child(1)
+{
+  font-size: 0.9rem;
+  color: rgba(115, 114, 114, 0.835);
+  position: relative;
+  bottom: 5px;
+}
+
+
+.cardAmount>:nth-child(2)
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 8px;
+}
