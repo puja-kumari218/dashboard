@@ -33,9 +33,6 @@ const Dashboard = () => {
 
 
 
-            {/* <option value="">1 week</option>
-              <option value="">1 month</option>
-              <option value="">1 year</option> */}
           </div>
           <div className="cards">
             {
